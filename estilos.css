@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.top{
+    background-color: indianred;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uno{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  10px;
+}
+.dos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  10px;
+}
+.tres{
+    background-color:  grey;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  10px;
+}
+.cuatro{
+    background-color:  whitesmoke;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+}
+.cuatro > div{
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+}

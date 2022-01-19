@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+
+<div class="top">
+    <div class="uno">
+        <p>Presupuesto disponible</p>
+        <p id="presupuesto">0</p>
+    </div>
+
+    <div class="dos">
+        <div>
+            <p>Ingresos totales</p>
+            <p id="ingresos">0</p>
+        </div>
+        <div>
+            <p>Egresos totales</p>
+            <p id="egresos">0</p>
+        </div>
+    </div>  
+</div>
+
+<div class="tres">
+    <select id="tipo">
+        <option value="ingreso">Ingreso</option>
+        <option value="egreso">Egreso</option>
+    </select>
+    <label for="monto">Monto:</label>
+    <input id="monto" type="text">
+    <button id="boton">Agregar</button>
+</div>
+
+<div class="cuatro">
+    <div>
+        <p>Resumen Ingresos</p>
+        <ul id="ing"></ul>
+    </div>
+    <div>
+        <p>Resumen Egresos</p>
+        <ul id="egr"></ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
